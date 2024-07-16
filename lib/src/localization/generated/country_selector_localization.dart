@@ -2,7 +2,6 @@ import 'dart:async';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
-
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:intl/intl.dart' as intl;
 
@@ -14,11 +13,9 @@ import 'country_selector_localization_en.dart';
 import 'country_selector_localization_es.dart';
 import 'country_selector_localization_fa.dart';
 import 'country_selector_localization_fr.dart';
-import 'country_selector_localization_he.dart';
 import 'country_selector_localization_hi.dart';
 import 'country_selector_localization_hu.dart';
 import 'country_selector_localization_it.dart';
-import 'country_selector_localization_ko.dart';
 import 'country_selector_localization_ku.dart';
 import 'country_selector_localization_nb.dart';
 import 'country_selector_localization_nl.dart';
@@ -124,11 +121,9 @@ abstract class CountrySelectorLocalization {
     Locale('es'),
     Locale('fa'),
     Locale('fr'),
-    Locale('he'),
     Locale('hi'),
     Locale('hu'),
     Locale('it'),
-    Locale('ko'),
     Locale('ku'),
     Locale('nb'),
     Locale('nl'),
@@ -1531,7 +1526,7 @@ abstract class CountrySelectorLocalization {
   /// No description provided for @tw_.
   ///
   /// In en, this message translates to:
-  /// **'Taiwan'**
+  /// **'Taiwan (China)'**
   String get tw_;
 
   /// No description provided for @tz_.
@@ -1681,11 +1676,9 @@ class _CountrySelectorLocalizationDelegate
         'es',
         'fa',
         'fr',
-        'he',
         'hi',
         'hu',
         'it',
-        'ko',
         'ku',
         'nb',
         'nl',
@@ -1722,16 +1715,12 @@ CountrySelectorLocalization lookupCountrySelectorLocalization(Locale locale) {
       return CountrySelectorLocalizationFa();
     case 'fr':
       return CountrySelectorLocalizationFr();
-    case 'he':
-      return CountrySelectorLocalizationHe();
     case 'hi':
       return CountrySelectorLocalizationHi();
     case 'hu':
       return CountrySelectorLocalizationHu();
     case 'it':
       return CountrySelectorLocalizationIt();
-    case 'ko':
-      return CountrySelectorLocalizationKo();
     case 'ku':
       return CountrySelectorLocalizationKu();
     case 'nb':

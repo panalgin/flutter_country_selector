@@ -700,7 +700,7 @@ class CountrySelectorLocalizationFa extends CountrySelectorLocalization {
   String get tv_ => 'تووالو';
 
   @override
-  String get tw_ => 'تایوان';
+  String get tw_ => '(چین) تایوان';
 
   @override
   String get tz_ => 'تانزانیا، جمهوری متحد تانزانیا';

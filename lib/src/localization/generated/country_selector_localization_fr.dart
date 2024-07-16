@@ -700,7 +700,7 @@ class CountrySelectorLocalizationFr extends CountrySelectorLocalization {
   String get tv_ => 'Tuvalu';
 
   @override
-  String get tw_ => 'Taïwan';
+  String get tw_ => 'Taïwan (Chine)';
 
   @override
   String get tz_ => 'Tanzanie, République-Unie de Tanzanie';

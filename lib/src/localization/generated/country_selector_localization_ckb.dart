@@ -701,7 +701,7 @@ class CountrySelectorLocalizationCkb extends CountrySelectorLocalization {
   String get tv_ => 'توڤالو';
 
   @override
-  String get tw_ => 'تایوان';
+  String get tw_ => 'تایوان (جۆمهوریای چین)';
 
   @override
   String get tz_ => 'تانزانیا، کۆماری یەکگرتووی تانزانیا';

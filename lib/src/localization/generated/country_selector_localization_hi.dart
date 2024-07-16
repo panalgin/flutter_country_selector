@@ -700,7 +700,7 @@ class CountrySelectorLocalizationHi extends CountrySelectorLocalization {
   String get tv_ => 'तुवालू';
 
   @override
-  String get tw_ => 'ताइवान';
+  String get tw_ => 'ताइवान (चीन)';
 
   @override
   String get tz_ => 'तंजानिया, संयुक्त गणराज्य तंजानिया';
