@@ -2,7 +2,7 @@ import 'country_selector_localization.dart';
 
 /// The translations for Spanish Castilian (`es`).
 class CountrySelectorLocalizationEs extends CountrySelectorLocalization {
-  CountrySelectorLocalizationEs([super.locale = 'es']);
+  CountrySelectorLocalizationEs([String locale = 'es']) : super(locale);
 
   @override
   String get noResultMessage => 'Sin resultados';
@@ -304,7 +304,7 @@ class CountrySelectorLocalizationEs extends CountrySelectorLocalization {
   String get gy_ => 'Guayana';
 
   @override
-  String get hk_ => 'Hong Kong';
+  String get hk_ => 'Hong Kong (Porcelana)';
 
   @override
   String get hn_ => 'Honduras';

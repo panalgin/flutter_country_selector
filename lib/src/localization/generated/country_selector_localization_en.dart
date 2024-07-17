@@ -2,7 +2,7 @@ import 'country_selector_localization.dart';
 
 /// The translations for English (`en`).
 class CountrySelectorLocalizationEn extends CountrySelectorLocalization {
-  CountrySelectorLocalizationEn([super.locale = 'en']);
+  CountrySelectorLocalizationEn([String locale = 'en']) : super(locale);
 
   @override
   String get noResultMessage => 'No result';
@@ -304,7 +304,7 @@ class CountrySelectorLocalizationEn extends CountrySelectorLocalization {
   String get gy_ => 'Guyana';
 
   @override
-  String get hk_ => 'Hong Kong';
+  String get hk_ => 'Hong Kong (China)';
 
   @override
   String get hn_ => 'Honduras';

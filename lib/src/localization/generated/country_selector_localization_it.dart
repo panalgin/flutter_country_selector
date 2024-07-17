@@ -2,7 +2,7 @@ import 'country_selector_localization.dart';
 
 /// The translations for Italian (`it`).
 class CountrySelectorLocalizationIt extends CountrySelectorLocalization {
-  CountrySelectorLocalizationIt([super.locale = 'it']);
+  CountrySelectorLocalizationIt([String locale = 'it']) : super(locale);
 
   @override
   String get noResultMessage => 'Nessun risultato';
@@ -304,7 +304,7 @@ class CountrySelectorLocalizationIt extends CountrySelectorLocalization {
   String get gy_ => 'Guyana';
 
   @override
-  String get hk_ => 'Hong Kong';
+  String get hk_ => 'Hong Kong (Cina)';
 
   @override
   String get hn_ => 'Honduras';

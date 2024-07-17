@@ -2,7 +2,7 @@ import 'country_selector_localization.dart';
 
 /// The translations for Kurdish (`ku`).
 class CountrySelectorLocalizationKu extends CountrySelectorLocalization {
-  CountrySelectorLocalizationKu([super.locale = 'ku']);
+  CountrySelectorLocalizationKu([String locale = 'ku']) : super(locale);
 
   @override
   String get noResultMessage => 'Bê encam';
@@ -304,7 +304,7 @@ class CountrySelectorLocalizationKu extends CountrySelectorLocalization {
   String get gy_ => 'Guyana';
 
   @override
-  String get hk_ => 'Hong Kong';
+  String get hk_ => 'Hong Kong (Çîn)';
 
   @override
   String get hn_ => 'Hondûras';

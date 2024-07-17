@@ -2,7 +2,7 @@ import 'country_selector_localization.dart';
 
 /// The translations for Persian (`fa`).
 class CountrySelectorLocalizationFa extends CountrySelectorLocalization {
-  CountrySelectorLocalizationFa([super.locale = 'fa']);
+  CountrySelectorLocalizationFa([String locale = 'fa']) : super(locale);
 
   @override
   String get noResultMessage => 'بدون نتیجه';
@@ -304,7 +304,7 @@ class CountrySelectorLocalizationFa extends CountrySelectorLocalization {
   String get gy_ => 'گویان';
 
   @override
-  String get hk_ => 'هنگ کنگ';
+  String get hk_ => 'هنگ کنگ (چین)';
 
   @override
   String get hn_ => 'هندوراس';

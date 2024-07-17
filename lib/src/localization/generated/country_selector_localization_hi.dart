@@ -2,7 +2,7 @@ import 'country_selector_localization.dart';
 
 /// The translations for Hindi (`hi`).
 class CountrySelectorLocalizationHi extends CountrySelectorLocalization {
-  CountrySelectorLocalizationHi([super.locale = 'hi']);
+  CountrySelectorLocalizationHi([String locale = 'hi']) : super(locale);
 
   @override
   String get noResultMessage => 'कोई परिणाम नही';
@@ -304,7 +304,7 @@ class CountrySelectorLocalizationHi extends CountrySelectorLocalization {
   String get gy_ => 'गुयाना';
 
   @override
-  String get hk_ => 'हांगकांग';
+  String get hk_ => 'हांगकांग (चीन)';
 
   @override
   String get hn_ => 'होंडुरस';

@@ -2,7 +2,7 @@ import 'country_selector_localization.dart';
 
 /// The translations for Dutch Flemish (`nl`).
 class CountrySelectorLocalizationNl extends CountrySelectorLocalization {
-  CountrySelectorLocalizationNl([super.locale = 'nl']);
+  CountrySelectorLocalizationNl([String locale = 'nl']) : super(locale);
 
   @override
   String get noResultMessage => 'Geen resultaat';
@@ -304,7 +304,7 @@ class CountrySelectorLocalizationNl extends CountrySelectorLocalization {
   String get gy_ => 'Guyana';
 
   @override
-  String get hk_ => 'Hong Kong';
+  String get hk_ => 'Hong Kong (China)';
 
   @override
   String get hn_ => 'Honduras';

@@ -2,7 +2,7 @@ import 'country_selector_localization.dart';
 
 /// The translations for Ukrainian (`uk`).
 class CountrySelectorLocalizationUk extends CountrySelectorLocalization {
-  CountrySelectorLocalizationUk([super.locale = 'uk']);
+  CountrySelectorLocalizationUk([String locale = 'uk']) : super(locale);
 
   @override
   String get noResultMessage => 'Немає результату';
@@ -304,7 +304,7 @@ class CountrySelectorLocalizationUk extends CountrySelectorLocalization {
   String get gy_ => 'Гайана';
 
   @override
-  String get hk_ => 'Гонконг';
+  String get hk_ => 'Гонконг (Китай)';
 
   @override
   String get hn_ => 'Гондурас';

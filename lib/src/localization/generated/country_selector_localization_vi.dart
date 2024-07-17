@@ -2,7 +2,7 @@ import 'country_selector_localization.dart';
 
 /// The translations for Vietnamese (`vi`).
 class CountrySelectorLocalizationVi extends CountrySelectorLocalization {
-  CountrySelectorLocalizationVi([super.locale = 'vi']);
+  CountrySelectorLocalizationVi([String locale = 'vi']) : super(locale);
 
   @override
   String get noResultMessage => 'Không có kết quả';
@@ -304,7 +304,7 @@ class CountrySelectorLocalizationVi extends CountrySelectorLocalization {
   String get gy_ => 'Guyana';
 
   @override
-  String get hk_ => 'Hồng Kông';
+  String get hk_ => 'Hồng Kông (Trung Quốc)';
 
   @override
   String get hn_ => 'Honduras';

@@ -734,7 +734,7 @@ abstract class CountrySelectorLocalization {
   /// No description provided for @hk_.
   ///
   /// In en, this message translates to:
-  /// **'Hong Kong'**
+  /// **'Hong Kong (China)'**
   String get hk_;
 
   /// No description provided for @hn_.

@@ -2,7 +2,7 @@ import 'country_selector_localization.dart';
 
 /// The translations for Russian (`ru`).
 class CountrySelectorLocalizationRu extends CountrySelectorLocalization {
-  CountrySelectorLocalizationRu([super.locale = 'ru']);
+  CountrySelectorLocalizationRu([String locale = 'ru']) : super(locale);
 
   @override
   String get noResultMessage => 'Безрезультатно';
@@ -304,7 +304,7 @@ class CountrySelectorLocalizationRu extends CountrySelectorLocalization {
   String get gy_ => 'Гайана';
 
   @override
-  String get hk_ => 'Гонконг';
+  String get hk_ => 'Гонконг (Китай)';
 
   @override
   String get hn_ => 'Гондурас';

@@ -2,7 +2,7 @@ import 'country_selector_localization.dart';
 
 /// The translations for Chinese (`zh`).
 class CountrySelectorLocalizationZh extends CountrySelectorLocalization {
-  CountrySelectorLocalizationZh([super.locale = 'zh']);
+  CountrySelectorLocalizationZh([String locale = 'zh']) : super(locale);
 
   @override
   String get noResultMessage => '没有结果';
@@ -304,7 +304,7 @@ class CountrySelectorLocalizationZh extends CountrySelectorLocalization {
   String get gy_ => '圭亚那';
 
   @override
-  String get hk_ => '香港';
+  String get hk_ => '香港 (中国)';
 
   @override
   String get hn_ => '洪都拉斯';

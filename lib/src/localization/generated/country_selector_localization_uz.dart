@@ -2,7 +2,7 @@ import 'country_selector_localization.dart';
 
 /// The translations for Uzbek (`uz`).
 class CountrySelectorLocalizationUz extends CountrySelectorLocalization {
-  CountrySelectorLocalizationUz([super.locale = 'uz']);
+  CountrySelectorLocalizationUz([String locale = 'uz']) : super(locale);
 
   @override
   String get noResultMessage => 'Ma\'lumot topilmadi';
@@ -304,7 +304,7 @@ class CountrySelectorLocalizationUz extends CountrySelectorLocalization {
   String get gy_ => 'Guyana';
 
   @override
-  String get hk_ => 'Hong Kong';
+  String get hk_ => 'Hong Kong (China)';
 
   @override
   String get hn_ => 'Honduras';

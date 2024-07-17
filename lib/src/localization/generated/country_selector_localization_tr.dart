@@ -1,5 +1,3 @@
-// ignore_for_file: use_super_parameters
-
 import 'country_selector_localization.dart';
 
 /// The translations for Turkish (`tr`).
@@ -306,7 +304,7 @@ class CountrySelectorLocalizationTr extends CountrySelectorLocalization {
   String get gy_ => 'Guyana';
 
   @override
-  String get hk_ => 'Hong Kong';
+  String get hk_ => 'Hong Kong (Çin)';
 
   @override
   String get hn_ => 'Honduras';

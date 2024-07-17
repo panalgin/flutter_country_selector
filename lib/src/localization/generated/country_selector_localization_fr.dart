@@ -2,7 +2,7 @@ import 'country_selector_localization.dart';
 
 /// The translations for French (`fr`).
 class CountrySelectorLocalizationFr extends CountrySelectorLocalization {
-  CountrySelectorLocalizationFr([super.locale = 'fr']);
+  CountrySelectorLocalizationFr([String locale = 'fr']) : super(locale);
 
   @override
   String get noResultMessage => 'Aucun résultat';
@@ -304,7 +304,7 @@ class CountrySelectorLocalizationFr extends CountrySelectorLocalization {
   String get gy_ => 'Guyane';
 
   @override
-  String get hk_ => 'Hong Kong';
+  String get hk_ => 'Hong Kong (Chine)';
 
   @override
   String get hn_ => 'Honduras';
