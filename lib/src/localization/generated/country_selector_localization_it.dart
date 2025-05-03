@@ -1,5 +1,7 @@
 import 'country_selector_localization.dart';
 
+// ignore_for_file: type=lint
+
 /// The translations for Italian (`it`).
 class CountrySelectorLocalizationIt extends CountrySelectorLocalization {
   CountrySelectorLocalizationIt([String locale = 'it']) : super(locale);

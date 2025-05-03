@@ -1,5 +1,7 @@
 import 'country_selector_localization.dart';
 
+// ignore_for_file: type=lint
+
 /// The translations for Arabic (`ar`).
 class CountrySelectorLocalizationAr extends CountrySelectorLocalization {
   CountrySelectorLocalizationAr([String locale = 'ar']) : super(locale);

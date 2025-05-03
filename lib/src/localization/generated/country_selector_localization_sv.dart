@@ -1,5 +1,7 @@
 import 'country_selector_localization.dart';
 
+// ignore_for_file: type=lint
+
 /// The translations for Swedish (`sv`).
 class CountrySelectorLocalizationSv extends CountrySelectorLocalization {
   CountrySelectorLocalizationSv([String locale = 'sv']) : super(locale);

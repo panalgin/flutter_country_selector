@@ -1,21 +1,44 @@
+## 1.0.16
+
+* Use theme default for `AppBar` elevation.
+
+## 1.0.15
+
+* Added fix for Hebrew localization
+
+## 1.0.14
+
+* Add Catalan
+
+## 1.0.13
+
+* Add localizations for Urdu
+
 ## 1.0.12
+
 * Fix translation in Vietnamese
 * Add localizations for Hebrew
+* Upgrade dependency
 
 ## 1.0.11
+
 * Added localizations for vi
 
 ## 1.0.10
+
 * Added localizations for Korean
 
 ## 1.0.9
-* Fix translation in portugese
+
+* Fix translation in Portuguese
 
 ## 1.0.8
+
 * Fix translation el
-* Update readme 
+* Update readme
 
 ## 1.0.7
+
 * Fix missing localizations
 * Use newer version of circle_flags
 * Add readme note about overwriting flags
@@ -28,7 +51,7 @@
 ## 1.0.5
 
 * Added missing localizations for pt and ru
-* Upgraded phone_numbers_parser 
+* Upgraded phone_numbers_parser
 
 ## 1.0.4
 

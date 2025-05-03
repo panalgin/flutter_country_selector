@@ -1,5 +1,7 @@
 import 'country_selector_localization.dart';
 
+// ignore_for_file: type=lint
+
 /// The translations for Hungarian (`hu`).
 class CountrySelectorLocalizationHu extends CountrySelectorLocalization {
   CountrySelectorLocalizationHu([String locale = 'hu']) : super(locale);

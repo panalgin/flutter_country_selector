@@ -1,5 +1,7 @@
 import 'country_selector_localization.dart';
 
+// ignore_for_file: type=lint
+
 /// The translations for Dutch Flemish (`nl`).
 class CountrySelectorLocalizationNl extends CountrySelectorLocalization {
   CountrySelectorLocalizationNl([String locale = 'nl']) : super(locale);

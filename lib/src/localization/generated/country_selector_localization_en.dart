@@ -1,5 +1,7 @@
 import 'country_selector_localization.dart';
 
+// ignore_for_file: type=lint
+
 /// The translations for English (`en`).
 class CountrySelectorLocalizationEn extends CountrySelectorLocalization {
   CountrySelectorLocalizationEn([String locale = 'en']) : super(locale);

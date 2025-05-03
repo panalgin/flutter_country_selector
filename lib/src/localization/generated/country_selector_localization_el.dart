@@ -1,5 +1,7 @@
 import 'country_selector_localization.dart';
 
+// ignore_for_file: type=lint
+
 /// The translations for Modern Greek (`el`).
 class CountrySelectorLocalizationEl extends CountrySelectorLocalization {
   CountrySelectorLocalizationEl([String locale = 'el']) : super(locale);

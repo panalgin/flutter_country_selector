@@ -1,5 +1,7 @@
 import 'country_selector_localization.dart';
 
+// ignore_for_file: type=lint
+
 /// The translations for Kurdish (`ku`).
 class CountrySelectorLocalizationKu extends CountrySelectorLocalization {
   CountrySelectorLocalizationKu([String locale = 'ku']) : super(locale);

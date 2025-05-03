@@ -1,5 +1,7 @@
 import 'country_selector_localization.dart';
 
+// ignore_for_file: type=lint
+
 /// The translations for Hindi (`hi`).
 class CountrySelectorLocalizationHi extends CountrySelectorLocalization {
   CountrySelectorLocalizationHi([String locale = 'hi']) : super(locale);

@@ -1,5 +1,7 @@
 import 'country_selector_localization.dart';
 
+// ignore_for_file: type=lint
+
 /// The translations for Vietnamese (`vi`).
 class CountrySelectorLocalizationVi extends CountrySelectorLocalization {
   CountrySelectorLocalizationVi([String locale = 'vi']) : super(locale);

@@ -1,5 +1,7 @@
 import 'country_selector_localization.dart';
 
+// ignore_for_file: type=lint
+
 /// The translations for Norwegian Bokmål (`nb`).
 class CountrySelectorLocalizationNb extends CountrySelectorLocalization {
   CountrySelectorLocalizationNb([String locale = 'nb']) : super(locale);

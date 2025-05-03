@@ -1,5 +1,7 @@
 import 'country_selector_localization.dart';
 
+// ignore_for_file: type=lint
+
 /// The translations for French (`fr`).
 class CountrySelectorLocalizationFr extends CountrySelectorLocalization {
   CountrySelectorLocalizationFr([String locale = 'fr']) : super(locale);
